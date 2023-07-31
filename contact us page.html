@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NAMAMA CONSTRUCTION SOLUTIONS</title>
+  <style>
+    #contact-form {
+      background-color:rgba(130,183,70,0.7;
+      padding-top: 20px;
+      padding-bottom: 20px;
+	  display:flex;
+	  flex-wrap:wrap;
+	  justify-content:space between;
+    }
+	.row{
+	flex:0 0 48%;
+	display:flex;
+	align-items:center;
+	margin-bottom:10px;
+	}
+    .row label {
+      color: #FFFFFF;
+      font-size: 18px;
+      margin-left: 10px;
+	  flex:0 0 40%;
+    }
+    input[type="text"],
+    textarea {
+      text-align: left;
+      background-color: #82b746;
+      border-radius: 10px;
+      margin: auto 0;
+      color: #FFFFFF;
+      margin-left: 10px;
+      margin-top: 10px;
+      box-shadow: 5px 5px 10px #3e4444;
+      width: 100%; 
+    }
+  </style> <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>NAMAMA ENGINEERING CO-OPERATION</h1>
+    <p class="tagline">SUSTAINABLE FOR ALL YOUR CONSTRUCTION SOLUTIONS</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="contactus.html">contact us</a></li>
+      <br>
+      <ul>
+        <li>TELEPHONE:<br>0778697470</li>
+        <li>EMAIL ADDRESS:<br>kaumasam38@gmail.com</li>
+		 <li>TELEPHONE:<br>0704499894
+        <li>EMAIL ADDRESS:<br>luwambolamech@gmail.com<li>
+   </ul>
+  </nav>
+  <main>
+    <form id="contact-form" action="#" method="POST" enctype="multipart/form-data">
+      <div class="row">
+       <br> <label class="required" for="firstname">YOUR FIRST NAME:</label><br>
+        <br><input id="firstname" class="input" name="firstname" type="text" value="" size="50"><br>
+        <span id="firstname_validation" class="error_message"></span>
+      </div>
+      <div class="row">
+        <label class="required" for="lastname">YOUR LAST NAME:</label>
+        <br><input id="lastname" class="input" name="lastname" type="text" value="" size="50"><br>
+        <span id="lastname_validation" class="error_message"></span>
+		<br><label for="gender">GENDER:</LABEL>
+		<select id"gender" name="gender"><br>
+		<option value="male">male</option>
+		<option value="female">female</option></select><br>
+      </div>
+      <br><div class="row">
+        <label class="required" for="email">YOUR EMAIL:</label>
+        <br><input id="email" class="input" name="email" type="text" value="" size="50"><br>
+        <span id="email_validation" class="error_message"></span>
+      </div>
+      <div class="row">
+        <label class="required" for="message">YOUR MESSAGE:</label><br>
+        <textarea id="message" class="input" name="message" rows="10" cols="42"></textarea><br>  
+        <span id="message_validation" class="error_message"></span>
+      </div>
+      <input id="submit_button" type="submit" value="Send your message">
+    </form>
+  </main>
+</body>
+<nav>
+  <p>Click on the links below to visit other pages:</p>
+    <ul>
+      <li><a href="service page.html"><strong>Services</strong></a></li>
+      <li><a href="about us page.html"><strong>about us</strong></a></li>
+      <li><a href="index.html"><strong>index</strong></a></li>
+      <li><a href="news.html"><strong>news</strong></a></li>
+    </ul>
+  </nav>
+</html>
